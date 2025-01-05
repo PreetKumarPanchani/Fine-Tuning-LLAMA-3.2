@@ -9,7 +9,7 @@ Fine-tuning the LLAMA 3.2 model on Custom Dataset.
 - Max samples per category: 5,000
 
 ## Project Overview
-This project fine-tunes LLAMA 3.2 to classify mental health-related text into categories:
+This project "FINE-TUNE LLAMA 3.2" to classify mental health-related text into categories:
 - Normal
 - Depression
 - Suicidal
