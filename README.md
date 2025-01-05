@@ -27,9 +27,14 @@ This project FINE-TUNE LLAMA 3.2 to classify mental health-related text into cat
 model: LLAMA3_2
 lora_rank: 64
 lora_alpha: 128
+lora_attn_modules: ['q_proj', 'v_proj', 'output_proj']
+apply_lora_to_mlp: True
+apply_lora_to_output: False
+lora_dropout: 0.0
 batch_size: 4
 learning_rate: 3e-4
 epochs: 1
+
 ```
 
 ## Training Process
@@ -53,6 +58,8 @@ epochs: 1
 ```
 torch
 transformers
+torchtune
+torchao
 huggingface_hub
 pandas
 numpy
