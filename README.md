@@ -68,9 +68,3 @@ The model uploaded on Hugging Face Hub:
 - Add multi-label classification
 - Implement confidence scores
 - Expand dataset variety
-
-  title = {LLAMA 3.2 Mental Health Sentiment Classifier},
-  year = {2024},
-  publisher = {GitHub}
-}
-```
